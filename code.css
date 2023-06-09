@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-sigrid-abalos-824572.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.s{
+
+    color: antiquewhite;
+    position: absolute;
+    top:25%;
+    left:45%;
+    cursor: auto;
+}
+
+.s h1{
+    font-size: 40px;
+    border-bottom: 4px solid rgba(238, 141, 15, 0.788);
+    margin-bottom: 20px;
+    padding: 13px,0;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 5px solid rgba(238, 141, 15, 0.788);
+
+}
+
+.box input{
+    background: none;
+    width: 70%;
+    margin: 2px 23px;
+    font-size: 15px;
+    border: none;
+    outline:none;
+    color: rgb(0, 0, 0);
+
+}
+
+.btn{
+    cursor: inherit;
+    outline:none;
+    width: 25%;
+    margin: 12px 0;
+    padding: 5px;
+    border-radius: 11px;
+    border:2px solid rgba(238, 141, 15, 0.788);
+}
